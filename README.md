@@ -9,3 +9,8 @@ Processes a file containing eye tracking data as well SART (an attention task) d
 ## EEG Processing  
 Once the EEG data has gone through artifact rejection, and all of the processing is applied to the trials, the result is a collection of files with frequency band information for each trial as well as another file which indicates whether or not the trial was marked as artifact/usable. This script merges this data into a single dataset.  
 ## Final Merger  
+Once all of the other notebooks have been run and produced their output, for all participants, this notebook merges all of the files, excluding participants specified.  
+## Wordpairs Pupil Processor  
+This was a rough sketching of a script for processing pupil data for when participants are preforming a different task - a memory task where they have to remember words. We are not using this approach at this time.
+## Wordpairs Merge and View
+Would have been used to merge pupil data for the memory task, but it's not being used.
